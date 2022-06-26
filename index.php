@@ -32,7 +32,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <a href="index.html" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt="" style="width: 300px"></a>
+      <a href="index.php" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt="" style="width: 300px"></a>
       <h2 data-aos="fade-up" style="color: #fff; font-size: 20px;">Incluir os alunos em um ambiente inclusivo e transformar sua vida!<br></h2>
         <span data-aos="fade-up" style="color: #fff;">Escute nosso objetivo: <audio controls src="assets/audio/objetivo.mp3" style="height: 15px; width: 100px;"></audio> </span><br>
       <a data-aos="fade-up" data-aos-delay="200" href="#about" class="btn-get-started scrollto" style="background-color: #8adaf4; color: #fff; font-weight: bold;">Sobre nós</a>
@@ -44,7 +44,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <a href="index.html" style="color: #aef3fd"><img src="assets/img/logo.png" alt=""></a>
+        <a href="index.php" style="color: #aef3fd"><img src="assets/img/logo.png" alt=""></a>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -55,6 +55,7 @@
           <li><a class="nav-link scrollto" href="#team">PROFISSIONAIS</a></li>
           <li><a class="nav-link scrollto" href="#pricing">MATRICULA</a></li>
           <li><a class="nav-link scrollto" href="#contact">CONTATO</a></li>
+          <li><a class="nav-link scrollto" href="login.php">PAINEL</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
