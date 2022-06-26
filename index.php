@@ -70,7 +70,7 @@ $sql = mysqli_query($con, $sql) or die ("Erro na sql!") ;
           <li><a class="nav-link scrollto" href="#team">PROFISSIONAIS</a></li>
           <li><a class="nav-link scrollto" href="#pricing">MATRICULA</a></li>
           <li><a class="nav-link scrollto" href="#contact">CONTATO</a></li>
-          <li><a class="nav-link scrollto" href="login.php">PAINEL</a></li>
+          <li><a class="nav-link scrollto" href="login.php">PAINEL <span>| user: admin | pw: admin</span></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

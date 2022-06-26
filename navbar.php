@@ -71,7 +71,7 @@
     <ul class="menu-inner py-1">
       <!-- Dashboard -->
       <li class="menu-item">
-        <a href="http://localhost/Site-Escola-Especial/menu.php" class="menu-link">
+        <a href="http://site-escola-especial.42web.io/menu.php" class="menu-link">
           <i class="menu-icon tf-icons bx bx-home-circle"></i>
           <div data-i18n="Analytics">Dashboard</div>
         </a>
@@ -79,28 +79,28 @@
 
       <!-- Layouts -->
       <li class="menu-item">
-        <a href="http://localhost/Site-Escola-Especial/login/form_login.php" class="menu-link">
+        <a href="http://site-escola-especial.42web.io/login/form_login.php" class="menu-link">
           <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
           <div data-i18n="Layouts">Registro Login</div>
         </a>
       </li>
 
       <li class="menu-item">
-        <a href="http://localhost/Site-Escola-Especial/login/consulta_login.php" class="menu-link">
+        <a href="http://site-escola-especial.42web.io/login/consulta_login.php" class="menu-link">
           <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
           <div data-i18n="Layouts">Consulta Login</div>
         </a>
       </li>
 
       <li class="menu-item">
-        <a href="http://localhost/Site-Escola-Especial/objetivo/consulta_objetivo.php" class="menu-link">
+        <a href="http://site-escola-especial.42web.io/objetivo/consulta_objetivo.php" class="menu-link">
           <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
           <div data-i18n="Layouts">Consulta Objetivo</div>
         </a>
       </li>
 
       <li class="menu-item">
-        <a href="http://localhost/Site-Escola-Especial/logout.php" class="menu-link">
+        <a href="http://site-escola-especial.42web.io/logout.php" class="menu-link">
           <i class="menu-icon tf-icons bx bx-layout"></i>
           <div data-i18n="Layouts">Sair</div>
         </a>
