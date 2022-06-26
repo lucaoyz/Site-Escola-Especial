@@ -8,7 +8,7 @@
 <body>
 
 <h1> ACESSO NEGADO! <br>
-Usuário ou senha inválida! <a href="index.php"> voltar </a> </h1>
+Usuário ou senha inválida! <a href="login.php"> voltar </a> </h1>
 
 </body>
 </html>

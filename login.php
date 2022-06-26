@@ -109,7 +109,7 @@
                 </div>
                 <div class="mb-3">
                   <button class="btn btn-primary d-grid w-50" type="submit" name="btn_enviar">Logar</button><br>
-                  <a class="btn btn-primary d-grid w-50 text-white" name="registrar" href="login/form_login.php">Registrar-se</a>
+                  <a class="btn btn-primary d-grid w-50 text-white" name="registrar" href="login/form_registro.php">Registrar-se</a>
                 </div>
               </form>
             </div>
