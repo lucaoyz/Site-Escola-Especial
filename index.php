@@ -1,3 +1,15 @@
+<?PHP
+require_once('conexao/banco.php');
+
+$sql = "select *
+        from tb_objetivo
+       ";
+
+
+$sql = mysqli_query($con, $sql) or die ("Erro na sql!") ;
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,8 +45,11 @@
   <section id="hero">
     <div class="hero-container">
       <a href="index.php" class="hero-logo" data-aos="zoom-in"><img src="assets/img/hero-logo.png" alt="" style="width: 300px"></a>
-      <h2 data-aos="fade-up" style="color: #fff; font-size: 20px;">Incluir os alunos em um ambiente inclusivo e transformar sua vida!<br></h2>
-        <span data-aos="fade-up" style="color: #fff;">Escute nosso objetivo: <audio controls src="assets/audio/objetivo.mp3" style="height: 15px; width: 100px;"></audio> </span><br>
+      <h2 data-aos="fade-up" style="color: #fff; font-size: 20px;">
+      <?php while ($dados = mysqli_fetch_array($sql)) { ?>
+          <?php echo $dados['obj_texto']; ?>                     
+      <?php } ?>
+      <br></h2>
       <a data-aos="fade-up" data-aos-delay="200" href="#about" class="btn-get-started scrollto" style="background-color: #8adaf4; color: #fff; font-weight: bold;">Sobre nós</a>
     </div>
   </section><!-- End Hero -->
@@ -59,7 +74,6 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
 

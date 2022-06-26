@@ -79,23 +79,24 @@
 
       <!-- Layouts -->
       <li class="menu-item">
-        <a href="javascript:void(0);" class="menu-link menu-toggle">
+        <a href="http://localhost/Site-Escola-Especial/login/form_login.php" class="menu-link">
           <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
-          <div data-i18n="Layouts">Login</div>
+          <div data-i18n="Layouts">Registro Login</div>
         </a>
+      </li>
 
-        <ul class="menu-sub">
-          <li class="menu-item">
-            <a href="http://localhost/Site-Escola-Especial/login/form_login.php" class="menu-link">
-              <div data-i18n="Without menu">Cadastro</div>
-            </a>
-          </li>
-          <li class="menu-item">
-            <a href="http://localhost/Site-Escola-Especial/login/consulta_login.php" class="menu-link">
-              <div data-i18n="Without navbar">Consulta</div>
-            </a>
-          </li>
-        </ul>
+      <li class="menu-item">
+        <a href="http://localhost/Site-Escola-Especial/login/consulta_login.php" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+          <div data-i18n="Layouts">Consulta Login</div>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="http://localhost/Site-Escola-Especial/objetivo/consulta_objetivo.php" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+          <div data-i18n="Layouts">Consulta Objetivo</div>
+        </a>
       </li>
 
       <li class="menu-item">
